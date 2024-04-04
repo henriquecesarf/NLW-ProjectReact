@@ -1,4 +1,5 @@
 import nlwUniteIcon from '../assets/Frame 7108.svg'
+import { NavLink } from './nav-lin'
 
 
 export function Header(){
@@ -6,8 +7,8 @@ export function Header(){
     <div className='flex items-center gap-5'>
       <img src={nlwUniteIcon}/>
       <nav className='flex items-center gap-5'>
-        <a href='' className='font-medium text-sm text-zinc-300'>Eventos</a>
-        <a href='' className='font-medium text-sm'>Participantes</a>
+        <NavLink href="/Enventos">Eventos</NavLink>
+        <NavLink href="/Participantes">Participantes</NavLink>
       </nav>
     </div>
   )
